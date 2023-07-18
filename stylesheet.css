@@ -1,0 +1,239 @@
+body {
+  margin: auto;
+}
+
+/* THIS IS HEAD NAVIGATION DESIGN WHERE HOME AND OTHER BUTTONS PRESENTS */
+
+.nav-wrappers {
+  background-color: #99ff00;
+  padding: 5px; 
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* THIS IS NAVIGATION BAR DISIGN */
+
+.navigation {
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.navigation li {
+  display: inline;
+  margin: 0px;
+}
+
+/* THIS IS DESIGN FOR HEAD NAVIGATION ITEMS */
+
+.navigation li a:hover {
+  background-color: yellow;
+}
+
+.navigation li a:active {
+  background-color: darkorange;
+}
+
+.navigation li a:visited {
+  background-color: red;
+}
+
+.nav-item {
+  color: aliceblue;
+}
+
+/* THIS IS DESIGN FOR FORM CONTAINER */
+
+.form-container {
+  background-color: #323232;
+  width: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  position: fixed;
+  bottom: -300;
+  right: 0;
+  transition: .5s;
+}
+
+.form-container:hover {
+  bottom: 0;
+}
+
+#email-icon {
+  width: 50px;
+  float: left;
+}
+
+.form-head-container {
+  background-color: #00000;
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.form-item {
+  margin: 15px;
+  padding-left: 8px;
+  color: white;
+}
+
+#subject {
+  height: 100px;
+  width: 200px;
+}
+
+#contact-us-label {
+  color: white;
+}
+
+/* THIS IS DESIGN FOR SUBMIT BTN */
+
+#submit-btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  margin: 9px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+#submit-btn:hover{
+  background-color: darkorange;
+}
+
+/* THIS IS DESIGN FOR HEADING 1 */
+
+#caption1 {
+  position: absolute;
+  top: 10%;
+  left: 55%;
+  color: darkorange;
+  font-size: 3vw;
+  animation-name: caption-fade;
+  animation-duration: 1.5s;
+}
+
+/* ANIMATION FOR HEADING1 */
+
+@keyframes caption-fade {
+  0% {
+    opacity: 0;
+    top: 0
+  }
+
+  100% {
+    opacity: 1;
+    top: 40%;
+  }
+}
+
+/* DESIGN FOR PRODUCTS CONTAINER OR FEARURE WRAPPER  */
+
+.featured-wrapper {
+  position: relative;
+  display: flex;
+  overflow: auto;
+  justify-content: space-around;
+}
+
+/* DESIGN FOR HEADING2  */
+
+#pop-cat {
+  text-align: center;
+}
+
+/* DESIGN FOR PRODUCTS CONTAINER  */
+
+.product-container {
+  background-color: #4CAF50;
+  text-align: center;
+  max-width: 20%;
+  position: relative;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 10px;
+  margin-top: 8px;
+  animation-name: pro-anime;
+  animation-duration: .4s;
+  border-color: #4CAF50;
+}
+
+/* ANIMATION FOR PRODUCTS CONTAINER  */
+
+@keyframes pro-anime {
+  0% {
+    opacity: 0;
+    margin-top: 500px
+  }
+
+  100% {
+    opacity: 1;
+    margin-top: 8px;
+  }
+}
+
+.product-container img {
+  max-width: 100%;
+  position: relative;
+  top: 30px;
+}
+
+.cat-text {
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: white;
+  margin-top: 10%;
+  margin-bottom: -2%;
+}
+
+.btn-container {
+  background-color: white;
+  position: relative;
+  top: 1%;
+  padding: 7%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.view-more-btn {
+  background-color: #4CAF50;
+  max-width: 100%;
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration:
+  display: inline-block;
+  margin: 9px 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.view-more-btn:hover{
+  background-color: darkorange;
+}
+
+#social-media-container{
+  background-color: black;
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  bottom: 50%;
+}
+
+
+#social-media-container:hover{
+cursor: pointer;
+background-color: red;
+
+}
